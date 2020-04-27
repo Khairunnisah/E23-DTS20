@@ -1,0 +1,93 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  /* Tambahkan CSS untuk header-right */
+  .header-right {
+    display: none;
+  }
+  .menu-icon {
+    display: block;
+    font-size:40px;
+    line-height:40px;
+    padding: 32px 0;
+    color:#fff;
+  }
+
+  .country{
+    width:50%;
+  }
+  .countries{
+    margin-top:20px;
+  }
+  .img-bank{
+    height: 40px;
+    width:90%;
+  }
+  .bank {
+    float: left;
+    width: 14%;
+    margin-right: 12px;
+  }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  p, h1, h2{
+    text-align:center;
+  }
+  .container{
+    width:100%;
+  }
+
+  .btn{
+    width:100%;
+  }
+  .country{
+    width:100%;
+  }
+  .bank-container{
+    max-width: 670px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  .bank{
+    width:33%;
+    height: 40px;
+    padding:0;
+    margin:0;
+  }
+
+  .countries{
+    margin-top: :20px;
+    margin-bottom:10px;
+  }
+  .banks{
+    margin-top: 5px;
+  }
+
+
+  /* Tambahkan CSS untuk header-right */
+  .header-right {
+    display: none;
+  }
+  
+  .menu-icon {
+    display: block;
+    font-size:40px;
+    line-height:40px;
+    padding: 32px 0;
+    color:#fff;
+  }
+
+  .header-left{
+    font-size:10px;
+    float:left;
+  }
+  .header-left h1{
+    line-height:40px;
+  }
+  .heading{
+    padding: 0;
+    margin-top:5px;
+  }
+}

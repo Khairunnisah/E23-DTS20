@@ -1,0 +1,218 @@
+/* Mulai code Anda dari baris terakhir */
+
+* {
+  box-sizing: border-box;
+}
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Bookman Old Style";
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 40px;
+  margin: 0 auto;
+}
+
+header {
+  height: 80px;
+  width: 100%;
+  background-color: rgb(47, 79, 79);
+}
+
+.header-left {
+  float: left;
+  color: white;
+  font-size: 16px;
+  margin-top: 20px;
+  /*line-height: 70px;*/
+  margin-left: -25px;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  text-decoration: none;
+}
+.header-right a {
+  line-height: 80px;
+  padding: 0 20px;
+  color: white;  
+  display:block;
+  font-size: 14px;
+  float: left;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+
+.top-wrapper {
+  padding: 140px 0 100px 0;
+  background-image: url('indonesia.jpg');
+  background-size: cover;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 0.8;
+  font-size: 45px;
+  font-family: Lucida Console;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.top-wrapper p {
+  opacity: 0.8;
+  margin-bottom: 3px;
+  font-family: Lucida Console;
+}
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+.find {
+  background-color: #239b76;
+
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+/* ====================================== CODE NISAH ==================================================== */
+
+.country-wrapper {  
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+}
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  font-size: 14px;
+  color: #b3aeb5;
+}
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+/*.countrys{
+    width: 1170px;
+    margin:0 auto;
+  }*/
+
+.country {
+  float: left;
+  width: 25%;
+  /*border:1px solid #000;*/
+  /*min-height: 320px;*/
+}
+
+.country-icon {
+  position: relative;
+  
+}
+.img-country{
+  width: 98%;
+  height: 250px;
+}
+
+.country-icon p {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: white;
+}
+.clear {
+  clear: left;
+}
+
+
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color: #000;
+  font-size: 16px;
+}
+
+footer {
+  border-top: 1px solid #000;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.menu-icon {
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+  color: rgb(47, 79, 79);
+}
+/* ====================================== CODE NISAH ==================================================== */
+
+
+/* ======================================= CODE JEKY ==================================================== */
+.bagian-extra2 li {
+    list-style: none;
+    float: left;
+}
+
+.bagian-extra2 {
+    background-color: floralwhite;
+    background-size: cover;
+    padding: 20px 20px;
+}
+.bank {
+  float: left;
+  width: 16%;
+  margin-right: 7px;
+}
+.img-bank{
+  height: 70px;
+  width:98%;
+}
+.bank-icon{
+  position: relative;
+}
+.bank-wrapper {  
+  padding-bottom: 20px;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+}
+.bank-container{
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+/* ======================================= END CODE JEKY =============================================== */
